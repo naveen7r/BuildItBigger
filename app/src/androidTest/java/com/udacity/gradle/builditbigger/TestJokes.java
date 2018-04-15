@@ -29,7 +29,7 @@ public class TestJokes {
             new ActivityTestRule(MainActivity.class, true, true);
 
     @Test
-    public void test() throws InterruptedException {
+    public void testAsyncJokes() throws InterruptedException {
 
         final CountDownLatch signal = new CountDownLatch(1);
 
