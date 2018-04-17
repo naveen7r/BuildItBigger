@@ -42,6 +42,8 @@ public class DisplayJokesActivity extends AppCompatActivity {
         tvNewJoke.setVisibility(View.GONE);
         if (newjoke != null && newjoke.length() > 0) {
             tvNewJoke.setText(newjoke);
+        } else {
+            tvNewJoke.setText(getString(R.string.error_message));
         }
 
         progressBarHandler = new ProgressBarHandler(this);

@@ -19,7 +19,7 @@
 
             <ImageView
                 android:id="@+id/iv_joke"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:layout_centerHorizontal="true"
                 android:src="@mipmap/joke" />
@@ -32,8 +32,7 @@
                 android:layout_centerHorizontal="true"
                 android:fontFamily="@font/roboto_thin"
                 android:text="@string/instructions"
-                android:textColor="#000"
-                android:textSize="16sp" />
+                style="@style/black16" />
 
             <Button
                 android:id="@+id/b_jokes"

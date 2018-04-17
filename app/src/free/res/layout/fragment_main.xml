@@ -35,8 +35,7 @@
                 android:layout_centerHorizontal="true"
                 android:fontFamily="@font/roboto_thin"
                 android:text="@string/instructions"
-                android:textColor="#000"
-                android:textSize="16sp" />
+                style="@style/black16" />
 
             <Button
                 android:id="@+id/b_jokes"

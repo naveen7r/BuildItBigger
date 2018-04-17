@@ -35,6 +35,8 @@ public class DisplayJokesActivity extends AppCompatActivity {
         final TextView tvNewJoke = findViewById(R.id.tvNewJoke);
         if (newjoke != null && newjoke.length() > 0) {
             tvNewJoke.setText(newjoke);
+        } else {
+            tvNewJoke.setText(getString(R.string.error_message));
         }
 
 
