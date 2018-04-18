@@ -63,7 +63,6 @@ public class DisplayJokesActivity extends AppCompatActivity {
 
                 @Override
                 public void onAdClosed() {
-                    // Load the next interstitial.
                     tvNewJoke.setVisibility(View.VISIBLE);
                 }
 
